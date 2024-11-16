@@ -1,0 +1,42 @@
+parameters: ROW_SIZE=          8 COLUMNS=         16 PAR_WRITE=          2 PAR_READ=          4
+
+0: read data when buffer is empty
+
+unable to read, valid is not issued empty=1 full=0 dout=00000000000000000000000000000000
+1: write data once
+
+After write: empty=1 full=0 dout=00000000000000000000000000000000
+
+2: read data once
+
+unable to read, valid is not issued empty=1 full=0 dout=00000000000000000000110000001101
+
+3: write data once again
+
+After write: empty=1 full=0 dout=00000000000000000000110000001101
+
+4: read data once
+
+while read: empty=0 full=0 dout=00001110000011110000110000001101
+
+5: write data 9 times
+
+After write: empty=1 full=0 dout=00000000000000000000000000000000
+
+After write: empty=1 full=0 dout=00000000000000000000000000010001
+
+After write: empty=0 full=0 dout=00000000000100100000000000010001
+
+After write: empty=0 full=0 dout=00000000000100100000000000010001
+
+After write: empty=0 full=0 dout=00000000000100100000000000010001
+
+After write: empty=0 full=0 dout=00000000000100100000000000010001
+
+After write: empty=0 full=0 dout=00000000000100100000000000010001
+
+After write: empty=0 full=0 dout=00000000000100100000000000010001
+
+unable to write, ready is not issued empty=0 full=1 dout=00000000000100100000000000010001
+0
+Simulation completed

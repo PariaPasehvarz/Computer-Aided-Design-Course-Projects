@@ -1,0 +1,590 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Documents/CAD/projects/CAD_CA1/CAD_CA1/trunk/sim
+T_opt
+!s110 1730289695
+V8QbgJ6g_FD727jozoEoYJ1
+04 2 4 work tb fast 0
+=1-0897989f2453-6722201f-d6-4ba4
+Z1 o-quiet -auto_acc_if_foreign -work work -debugdb +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1731007919
+V7kXkDAEeGBjHaHiDEdI2h0
+04 18 4 work circular_buffer_tb fast 0
+=1-0897989f2453-672d15af-274-5554
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1730937530
+V[b<P:mh<0KF@XmLj?:8041
+04 9 4 work testbench fast 0
+=1-0897989f2453-672c02ba-1c-4580
+R1
+R2
+n@_opt2
+R3
+R0
+vadder
+Z4 !s10a 1729442292
+Z5 !s110 1730289693
+!i10b 1
+!s100 RY1]klo?YzG5iG`_OWC7M2
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;PEN`cXNFU8_gS<JWCfGE2
+Z7 dC:/Users/ariya/OneDrive/Desktop/CAD_HW1_P2_810101393_810199421/trunk/sim
+Z8 w1729442292
+8../src/hdl/adder.v
+F../src/hdl/adder.v
+!i122 24
+Z9 L0 2 19
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z12 !s108 1730289693.000000
+!s107 ../src/hdl/adder.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/adder.v|
+!i113 0
+Z13 o+acc -source
+Z14 !s92 +acc -source +define+SIM
+R2
+vappr_multiplier
+R4
+R5
+!i10b 1
+!s100 QX?JO2nhY0gdFb@1XRN<23
+R6
+IPT]Nzg:Mk5_zZ:B1<OInf2
+R7
+R8
+8../src/hdl/appr_multiplier.v
+F../src/hdl/appr_multiplier.v
+!i122 25
+L0 3 65
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 ../src/hdl/appr_multiplier.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/appr_multiplier.v|
+!i113 0
+R13
+R14
+R2
+vbuffer
+!s10a 1731007195
+Z15 !s110 1731007663
+!i10b 1
+!s100 OSdAH34g<H9ajGW?Y^R9<3
+R6
+IlU8?L0FVob1;?Ae:13U<T2
+Z16 dC:/Users/ariya/OneDrive/Desktop/cad2-trunk/trunk/sim
+w1731007195
+8../src/hdl/buffer.v
+F../src/hdl/buffer.v
+!i122 117
+L0 1 56
+R10
+R11
+r1
+!s85 0
+31
+Z17 !s108 1731007663.000000
+!s107 ../src/hdl/buffer.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/buffer.v|
+!i113 0
+R13
+R14
+R2
+vcircular_buffer
+!s10a 1731006558
+Z18 !s110 1731006741
+!i10b 1
+!s100 <9zW`DgVk_^SO]P<JIh_d2
+R6
+IHQcQeoEm:UIEk34dDm7EH3
+R16
+w1731006558
+8../src/hdl/circular_buffer.v
+F../src/hdl/circular_buffer.v
+!i122 112
+L0 1 54
+R10
+R11
+r1
+!s85 0
+31
+Z19 !s108 1731006741.000000
+!s107 ../src/hdl/circular_buffer.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/circular_buffer.v|
+!i113 0
+R13
+R14
+R2
+vcircular_buffer_tb
+!s10a 1731006797
+!s110 1731006810
+!i10b 1
+!s100 hMDWDehVndJ;LRWoU55I51
+R6
+IYFaXOkNE>?YYLakG50C7f3
+R16
+w1731006797
+8./tb/circular_buffer_tb.v
+F./tb/circular_buffer_tb.v
+!i122 116
+L0 4 123
+R10
+R11
+r1
+!s85 0
+31
+!s108 1731006810.000000
+!s107 ./tb/circular_buffer_tb.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/circular_buffer_tb.v|
+!i113 0
+R13
+Z20 !s92 +acc -source +incdir+../src/inc +define+SIM
+R2
+vcontroller
+!s10a 1731006575
+R18
+!i10b 1
+!s100 JjOO46>9Zl]=iYO:boZ1B0
+R6
+I1B>K;OHLf6S]ojObn1Icb1
+R16
+w1731006575
+8../src/hdl/controller.v
+F../src/hdl/controller.v
+!i122 113
+L0 1 99
+R10
+R11
+r1
+!s85 0
+31
+R19
+!s107 ../src/hdl/controller.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/controller.v|
+!i113 0
+R13
+R14
+R2
+vcounter
+R4
+R5
+!i10b 1
+!s100 JOBP4FQXE_AaRJFUhT2AX1
+R6
+I[eBEV>`z?:KPbZ9MDHGkh0
+R7
+R8
+8../src/hdl/counter.v
+F../src/hdl/counter.v
+!i122 27
+L0 2 25
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 ../src/hdl/counter.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/counter.v|
+!i113 0
+R13
+R14
+R2
+vdatapath
+!s10a 1731006595
+R18
+!i10b 1
+!s100 @aZ0`oGMz2[oE0zQ_nW8K2
+R6
+I8N@[dNK4Ja6gZaW6HK1am0
+R16
+w1731006595
+8../src/hdl/datapath.v
+F../src/hdl/datapath.v
+!i122 114
+L0 1 92
+R10
+R11
+r1
+!s85 0
+31
+R19
+!s107 ../src/hdl/datapath.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/datapath.v|
+!i113 0
+R13
+R14
+R2
+vempty_check
+!s10a 1731007637
+R15
+!i10b 1
+!s100 36I[3`n@Zz487CNLGmA:H3
+R6
+IKYRz1>ShC]f`cUC]=z0;T0
+R16
+w1731007637
+8../src/hdl/empty_check.v
+F../src/hdl/empty_check.v
+!i122 118
+Z21 L0 1 20
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 ../src/hdl/empty_check.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/empty_check.v|
+!i113 0
+R13
+R14
+R2
+vfull_check
+!s10a 1731007623
+R15
+!i10b 1
+!s100 _b;8HAWXLg4P8PfTh8FHW2
+R6
+IAZ^0@BmFK2e_ldP86z34h2
+R16
+w1731007623
+8../src/hdl/full_check.v
+F../src/hdl/full_check.v
+!i122 119
+R21
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 ../src/hdl/full_check.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/full_check.v|
+!i113 0
+R13
+R14
+R2
+vinput_ram
+!s10a 1729464864
+Z22 !s110 1730289694
+!i10b 1
+!s100 dObUlPMMhXmXkLQm6iUUb1
+R6
+IA?NMFR<e4?n7Q1Q>7zQn72
+R7
+w1729464864
+8../src/hdl/input_ram.v
+F../src/hdl/input_ram.v
+!i122 29
+L0 2 21
+R10
+R11
+r1
+!s85 0
+31
+Z23 !s108 1730289694.000000
+!s107 ../src/hdl/input_ram.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/input_ram.v|
+!i113 0
+R13
+R14
+R2
+vLZD
+!s10a 1729359420
+R22
+!i10b 1
+!s100 cfKc:1NJk3Lh]G`N`9oO:3
+R6
+IbXOA>K0gof8m<7e[MXYSA3
+R7
+w1729359420
+8../src/hdl/LZD.v
+F../src/hdl/LZD.v
+!i122 30
+L0 2 30
+R10
+R11
+r1
+!s85 0
+31
+R23
+!s107 ../src/hdl/LZD.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/LZD.v|
+!i113 0
+R13
+R14
+R2
+n@l@z@d
+vmultiplier
+R4
+R22
+!i10b 1
+!s100 glUE<Re[jLTGQDDc6WH5T1
+R6
+I>?>n701VYN8Wc558lUbgz3
+R7
+R8
+8../src/hdl/multiplier.v
+F../src/hdl/multiplier.v
+!i122 31
+R9
+R10
+R11
+r1
+!s85 0
+31
+R23
+!s107 ../src/hdl/multiplier.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/multiplier.v|
+!i113 0
+R13
+R14
+R2
+voutput_ram
+!s10a 1729469948
+R22
+!i10b 1
+!s100 GJdlGW2aig66X?hb;4=JC2
+R6
+ILbF3VPlOEFiY^Gn@JkT_A0
+R7
+w1729469948
+8../src/hdl/output_ram.v
+F../src/hdl/output_ram.v
+!i122 32
+L0 2 32
+R10
+R11
+r1
+!s85 0
+31
+R23
+!s107 ../src/hdl/output_ram.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/output_ram.v|
+!i113 0
+R13
+R14
+R2
+vread_addr_gen
+!s10a 1731007585
+R15
+!i10b 1
+!s100 c8z[oQBg<Sn1Y0:Sd?`8:2
+R6
+I0UHlnDVkL5UOR:_2JjgnN3
+R16
+w1731007585
+8../src/hdl/read_addr_gen.v
+F../src/hdl/read_addr_gen.v
+!i122 120
+L0 1 17
+R10
+R11
+r1
+!s85 0
+31
+R17
+!s107 ../src/hdl/read_addr_gen.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/read_addr_gen.v|
+!i113 0
+R13
+R14
+R2
+vread_ptr_update
+!s110 1731007918
+!i10b 1
+!s100 bM6[XPm_f:<AfbRQSDG?g1
+R6
+Ig4OBYY=_iSJCa?QjJQ7m51
+R16
+w1731007874
+8../src/hdl/read_ptr_update.v
+F../src/hdl/read_ptr_update.v
+!i122 124
+L0 1 21
+R10
+R11
+r1
+!s85 0
+31
+!s108 1731007918.000000
+!s107 ../src/hdl/read_ptr_update.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/read_ptr_update.v|
+!i113 0
+R13
+R14
+R2
+vregister
+R4
+R22
+!i10b 1
+!s100 NaHd<dzQiA_7f]UV_]7JR3
+R6
+I8`gdU4F2jLEc1@kd0M>dU0
+R7
+R8
+8../src/hdl/register.v
+F../src/hdl/register.v
+!i122 33
+L0 2 11
+R10
+R11
+r1
+!s85 0
+31
+R23
+!s107 ../src/hdl/register.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/register.v|
+!i113 0
+R13
+R14
+R2
+vshifter
+R4
+R22
+!i10b 1
+!s100 F>YaUXjaVM?5Cb[62GfSn0
+R6
+IFln9OzllIH8^A?jYQei_01
+R7
+R8
+8../src/hdl/shifter.v
+F../src/hdl/shifter.v
+!i122 34
+R9
+R10
+R11
+r1
+!s85 0
+31
+R23
+!s107 ../src/hdl/shifter.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/shifter.v|
+!i113 0
+R13
+R14
+R2
+vtb
+R4
+R22
+!i10b 1
+!s100 aFf1Y[e^AH]1?h^i3kQLU2
+R6
+I94ehXT8YPf;:mb^zMC:aB0
+R7
+R8
+8./tb/tb.v
+F./tb/tb.v
+!i122 35
+L0 4 17
+R10
+R11
+r1
+!s85 0
+31
+R23
+!s107 ./tb/tb.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/tb.v|
+!i113 0
+R13
+R20
+R2
+vtestbench
+!s10a 1730936106
+!s110 1730936137
+!i10b 1
+!s100 RzM<IX^5:743EP@>cP:5o3
+R6
+Ih<`RL9Lad[5z>Xd7JfTj51
+R16
+w1730936106
+8./tb/testbench.v
+F./tb/testbench.v
+!i122 52
+L0 5 88
+R10
+R11
+r1
+!s85 0
+31
+!s108 1730936136.000000
+!s107 ./tb/testbench.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/testbench.v|
+!i113 0
+R13
+R20
+R2
+vwrite_addr_gen
+!s10a 1731007455
+Z24 !s110 1731007790
+!i10b 1
+!s100 HelHI3ZQ[iMOH<YFf@V9B2
+R6
+IX?3S`kAN0lK>AWNbl:Pa=1
+R16
+w1731007455
+8../src/hdl/write_addr_gen.v
+F../src/hdl/write_addr_gen.v
+!i122 122
+L0 1 18
+R10
+R11
+r1
+!s85 0
+31
+Z25 !s108 1731007790.000000
+!s107 ../src/hdl/write_addr_gen.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/write_addr_gen.v|
+!i113 0
+R13
+R14
+R2
+vwrite_ptr_update
+!s10a 1731007842
+R24
+!i10b 1
+!s100 NPY1:djS6nh9G5aI1IFEK1
+R6
+IEbZYKf_[L^3j;X[eVfkgR3
+R16
+w1731007378
+8../src/hdl/write_ptr_update.v
+F../src/hdl/write_ptr_update.v
+!i122 123
+L0 1 23
+R10
+R11
+r1
+!s85 0
+31
+R25
+!s107 ../src/hdl/write_ptr_update.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/write_ptr_update.v|
+!i113 0
+R13
+R14
+R2

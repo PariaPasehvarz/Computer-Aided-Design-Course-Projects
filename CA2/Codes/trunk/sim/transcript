@@ -1,0 +1,269 @@
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+
+
+dom sim_top.tcl
+# invalid command name "dom"
+do sim_top.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# circular_buffer_tb
+# ../src/hdl
+# ../src/inc
+# 100 us
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:31:58 on Nov 07,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/buffer.v 
+# -- Skipping module buffer
+# 
+# Top level modules:
+# 	buffer
+# End time: 14:31:58 on Nov 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:31:58 on Nov 07,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/circular_buffer.v 
+# -- Skipping module circular_buffer
+# 
+# Top level modules:
+# 	circular_buffer
+# End time: 14:31:58 on Nov 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:31:58 on Nov 07,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/controller.v 
+# -- Skipping module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 14:31:58 on Nov 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:31:58 on Nov 07,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/datapath.v 
+# -- Skipping module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 14:31:58 on Nov 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:31:58 on Nov 07,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/empty_check.v 
+# -- Skipping module empty_check
+# 
+# Top level modules:
+# 	empty_check
+# End time: 14:31:58 on Nov 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:31:58 on Nov 07,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/full_check.v 
+# -- Skipping module full_check
+# 
+# Top level modules:
+# 	full_check
+# End time: 14:31:58 on Nov 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:31:58 on Nov 07,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/read_addr_gen.v 
+# -- Skipping module read_addr_gen
+# 
+# Top level modules:
+# 	read_addr_gen
+# End time: 14:31:58 on Nov 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:31:58 on Nov 07,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/read_ptr_update.v 
+# -- Compiling module read_ptr_update
+# 
+# Top level modules:
+# 	read_ptr_update
+# End time: 14:31:58 on Nov 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:31:58 on Nov 07,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/write_addr_gen.v 
+# -- Skipping module write_addr_gen
+# 
+# Top level modules:
+# 	write_addr_gen
+# End time: 14:31:58 on Nov 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:31:59 on Nov 07,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/write_ptr_update.v 
+# -- Skipping module write_ptr_update
+# 
+# Top level modules:
+# 	write_ptr_update
+# End time: 14:31:59 on Nov 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:31:59 on Nov 07,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+incdir+../src/inc" "+define+SIM" ./tb/circular_buffer_tb.v 
+# -- Skipping module circular_buffer_tb
+# 
+# Top level modules:
+# 	circular_buffer_tb
+# End time: 14:31:59 on Nov 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -debugDB circular_buffer_tb 
+# Start time: 14:31:59 on Nov 07,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+# Loading work.circular_buffer_tb(fast)
+# Loading work.circular_buffer(fast)
+# Loading work.datapath(fast)
+# Loading work.buffer(fast)
+# Loading work.write_addr_gen(fast)
+# Loading work.read_addr_gen(fast)
+# Loading work.write_ptr_update(fast)
+# Loading work.read_ptr_update(fast)
+# Loading work.empty_check(fast)
+# Loading work.full_check(fast)
+# Loading work.controller(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# ** Error: (vsim-8357) Internal debugDB error id:ct1  ret:1 table context_tbl already exists
+# ** UI-Msg: (vish-4014) No objects found matching '/circular_buffer_tb/uut/*'.
+# Executing ONERROR command at macro ./sim_top.tcl line 38
+# invoked "break" outside of a loop
+# present_state: xxx, write_enable: 0, full: x, read_enable: 0, empty: x
+# present_state: 000, write_enable: 0, full: x, read_enable: 0, empty: x
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# present_state: 000, write_enable: 0, full: 0, read_enable: 1, empty: 1
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# present_state: 000, write_enable: 1, full: 0, read_enable: 0, empty: 1
+# present_state: 011, write_enable: 1, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 0, valid: 0, ready: 1, wen: 0
+# present_state: 100, write_enable: 1, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 1
+# present_state: 100, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# present_state: 101, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 1, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 1, empty: 1
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# present_state: 000, write_enable: 1, full: 0, read_enable: 0, empty: 1
+# present_state: 011, write_enable: 1, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 0, valid: 0, ready: 1, wen: 0
+# present_state: 011, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# present_state: 100, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 1
+# present_state: 101, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 1, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 1, empty: 0
+# present_state: 001, write_enable: 0, full: 0, read_enable: 1, empty: 0
+# updateRP: 0, updateWP: 0, valid: 1, ready: 0, wen: 0
+# present_state: 001, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# present_state: 010, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 1, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 1, full: 0, read_enable: 0, empty: 1
+# present_state: 011, write_enable: 1, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 0, valid: 0, ready: 1, wen: 0
+# present_state: 011, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# present_state: 100, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 1
+# present_state: 101, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 1, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 1, full: 0, read_enable: 0, empty: 1
+# present_state: 011, write_enable: 1, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 0, valid: 0, ready: 1, wen: 0
+# present_state: 100, write_enable: 1, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 1
+# present_state: 100, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# present_state: 101, write_enable: 0, full: 0, read_enable: 0, empty: 1
+# updateRP: 0, updateWP: 1, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# present_state: 011, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 1, wen: 0
+# present_state: 100, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 1
+# present_state: 100, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# present_state: 101, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 1, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# present_state: 011, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 1, wen: 0
+# present_state: 011, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# present_state: 100, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 1
+# present_state: 101, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 1, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# present_state: 011, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 1, wen: 0
+# present_state: 011, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# present_state: 100, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 1
+# present_state: 101, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 1, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# present_state: 011, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 1, wen: 0
+# present_state: 100, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 1
+# present_state: 100, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# present_state: 101, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 1, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# present_state: 011, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 1, wen: 0
+# present_state: 100, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 1
+# present_state: 100, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# present_state: 101, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 1, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# present_state: 011, write_enable: 1, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 1, wen: 0
+# present_state: 011, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# present_state: 100, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 1
+# present_state: 101, write_enable: 0, full: 0, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 1, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 0, full: 1, read_enable: 0, empty: 0
+# updateRP: 0, updateWP: 0, valid: 0, ready: 0, wen: 0
+# present_state: 000, write_enable: 1, full: 1, read_enable: 0, empty: 0
+# present_state: 000, write_enable: 0, full: 1, read_enable: 0, empty: 0
+# ** Note: $stop    : ./tb/circular_buffer_tb.v(122)
+#    Time: 1340 ps  Iteration: 0  Instance: /circular_buffer_tb
+# Break in Module circular_buffer_tb at ./tb/circular_buffer_tb.v line 122
+# End time: 14:34:04 on Nov 07,2024, Elapsed time: 0:02:05
+# Errors: 1, Warnings: 0
