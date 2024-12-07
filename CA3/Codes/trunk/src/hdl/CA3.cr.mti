@@ -1,0 +1,78 @@
+D:/Computer-Aided-Design/CA3/adder.v {1 {vlog -work work -stats=none D:/Computer-Aided-Design/CA3/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} D:/Computer-Aided-Design/CA3/controller.v {1 {vlog -work work -stats=none D:/Computer-Aided-Design/CA3/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/Computer-Aided-Design/CA3/counter.v {1 {vlog -work work -stats=none D:/Computer-Aided-Design/CA3/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} D:/Computer-Aided-Design/CA3/shifter.v {1 {vlog -work work -stats=none D:/Computer-Aided-Design/CA3/shifter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} D:/Computer-Aided-Design/CA3/modules.v {1 {vlog -work work -stats=none D:/Computer-Aided-Design/CA3/modules.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module c1
+-- Compiling module c2
+-- Compiling module FDCP
+-- Compiling module s1
+-- Compiling module s2
+
+Top level modules:
+	c1
+	c2
+	s1
+	s2
+
+} {} {}} D:/Computer-Aided-Design/CA3/appr_multiplier.v {1 {vlog -work work -stats=none D:/Computer-Aided-Design/CA3/appr_multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module appr_multiplier
+
+Top level modules:
+	appr_multiplier
+
+} {} {}} D:/Computer-Aided-Design/CA3/tb.v {1 {vlog -work work -stats=none D:/Computer-Aided-Design/CA3/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} D:/Computer-Aided-Design/CA3/LZD.v {1 {vlog -work work -stats=none D:/Computer-Aided-Design/CA3/LZD.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LZD
+
+Top level modules:
+	LZD
+
+} {} {}} D:/Computer-Aided-Design/CA3/multiplier.v {1 {vlog -work work -stats=none D:/Computer-Aided-Design/CA3/multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} D:/Computer-Aided-Design/CA3/datapath.v {1 {vlog -work work -stats=none D:/Computer-Aided-Design/CA3/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}}

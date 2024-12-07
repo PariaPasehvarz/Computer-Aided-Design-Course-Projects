@@ -1,0 +1,327 @@
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+
+do sim_top.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# tb
+# ../src/hdl
+# ../src/inc
+# 100 us
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:39 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/controller.v 
+# -- Skipping module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 15:15:39 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:39 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/modules.v 
+# -- Skipping module c1
+# -- Skipping module c2
+# -- Skipping module FDCP
+# -- Skipping module s1
+# -- Skipping module s2
+# 
+# Top level modules:
+# 	c1
+# 	c2
+# 	s1
+# 	s2
+# End time: 15:15:39 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:39 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/Adder/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 15:15:39 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:39 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/BasicGates/And.v 
+# -- Skipping module And
+# 
+# Top level modules:
+# 	And
+# End time: 15:15:39 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:39 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/BasicGates/Nand.v 
+# -- Skipping module Nand
+# 
+# Top level modules:
+# 	Nand
+# End time: 15:15:39 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:39 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/BasicGates/Not.v 
+# -- Skipping module Not
+# 
+# Top level modules:
+# 	Not
+# End time: 15:15:39 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:39 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/BasicGates/Or.v 
+# -- Skipping module Or
+# 
+# Top level modules:
+# 	Or
+# End time: 15:15:39 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:39 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/BasicGates/Xor.v 
+# -- Compiling module Xor
+# 
+# Top level modules:
+# 	Xor
+# End time: 15:15:39 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:39 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/Counter/five_bit_counter.v 
+# -- Compiling module five_bit_counter
+# 
+# Top level modules:
+# 	five_bit_counter
+# End time: 15:15:40 on Nov 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:40 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/Counter/four_bit_counter.v 
+# -- Compiling module four_bit_counter
+# 
+# Top level modules:
+# 	four_bit_counter
+# End time: 15:15:40 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:40 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/IsLessThan/five_bit_is_less_than.v 
+# -- Compiling module five_bit_is_less_than
+# 
+# Top level modules:
+# 	five_bit_is_less_than
+# End time: 15:15:40 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:40 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/IsLessThan/four_bit_is_less_than.v 
+# -- Compiling module four_bit_is_less_than
+# 
+# Top level modules:
+# 	four_bit_is_less_than
+# End time: 15:15:40 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:40 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/LDZ/LZD.v 
+# -- Compiling module LZD
+# 
+# Top level modules:
+# 	LZD
+# End time: 15:15:40 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:40 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/Register/sixteen_bit_register.v 
+# -- Compiling module sixteen_bit_register
+# 
+# Top level modules:
+# 	sixteen_bit_register
+# End time: 15:15:40 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:40 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/Register/three_bit_register.v 
+# -- Compiling module three_bit_register
+# 
+# Top level modules:
+# 	three_bit_register
+# End time: 15:15:40 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:40 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/Shifter/left_shifter.v 
+# -- Compiling module left_shifter
+# 
+# Top level modules:
+# 	left_shifter
+# End time: 15:15:40 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:40 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/Modules/Shifter/right_shifter.v 
+# -- Compiling module right_shifter
+# 
+# Top level modules:
+# 	right_shifter
+# End time: 15:15:40 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:40 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/FiveOr.v 
+# -- Skipping module FiveOr
+# 
+# Top level modules:
+# 	FiveOr
+# End time: 15:15:40 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:40 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/FourAnd.v 
+# -- Skipping module FourAnd
+# 
+# Top level modules:
+# 	FourAnd
+# End time: 15:15:40 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:40 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/ThreeAnd.v 
+# -- Skipping module ThreeAnd
+# 
+# Top level modules:
+# 	ThreeAnd
+# End time: 15:15:41 on Nov 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:41 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/FourOr.v 
+# -- Skipping module FourOr
+# 
+# Top level modules:
+# 	FourOr
+# End time: 15:15:41 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:41 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/datapath.v 
+# -- Skipping module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 15:15:41 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:41 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/top_module.v 
+# -- Skipping module top_module
+# 
+# Top level modules:
+# 	top_module
+# End time: 15:15:41 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:41 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/mux.v 
+# -- Skipping module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 15:15:41 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:41 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+define+SIM" ../src/hdl/multiplier.v 
+###### ../src/hdl/multiplier.v(10):         for (genvar i = 0; i < 8; i = i + 1) begin : pp_gen
+# 
+# ** Warning: ../src/hdl/multiplier.v(10): (vlog-2226) The inline genvar declaration for 'i' is only legal in SystemVerilog.
+# Use -error for strict enforcement.
+# -- Compiling module multiplier
+###### ../src/hdl/multiplier.v(55):         for (genvar i = 0; i < 16; i = i + 1) begin : full_adders
+# 
+# ** Warning: ../src/hdl/multiplier.v(55): (vlog-2226) The inline genvar declaration for 'i' is only legal in SystemVerilog.
+# Use -error for strict enforcement.
+# -- Compiling module ripple_adder_16bit
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	multiplier
+# End time: 15:15:41 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:15:41 on Nov 29,2024
+# vlog -reportprogress 300 "+acc" -incr -source "+incdir+../src/inc" "+define+SIM" ./tb/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:15:41 on Nov 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -debugDB tb 
+# Start time: 15:15:41 on Nov 29,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+###### ../src/hdl/multiplier.v(10):         for (genvar i = 0; i < 8; i = i + 1) begin : pp_gen
+# 
+# ** Warning: ../src/hdl/multiplier.v(10): (vopt-2226) The inline genvar declaration for 'i' is only legal in SystemVerilog.
+# Use -error for strict enforcement.
+###### ../src/hdl/multiplier.v(55):         for (genvar i = 0; i < 16; i = i + 1) begin : full_adders
+# 
+# ** Warning: ../src/hdl/multiplier.v(55): (vopt-2226) The inline genvar declaration for 'i' is only legal in SystemVerilog.
+# Use -error for strict enforcement.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.tb(fast)
+# Loading work.top_module(fast)
+# Loading work.controller(fast)
+# Loading work.mux(fast)
+# Loading work.Not(fast)
+# Loading work.c1(fast)
+# Loading work.And(fast)
+# Loading work.Or(fast)
+# Loading work.three_bit_register(fast)
+# Loading work.s2(fast)
+# Loading work.FDCP(fast)
+# Loading work.ThreeAnd(fast)
+# Loading work.FiveOr(fast)
+# Loading work.FourOr(fast)
+# Loading work.datapath(fast)
+# Loading work.sixteen_bit_register(fast)
+# Loading work.LZD(fast)
+# Loading work.four_bit_counter(fast)
+# Loading work.FourAnd(fast)
+# Loading work.four_bit_is_less_than(fast)
+# Loading work.Xor(fast)
+# Loading work.c2(fast)
+# Loading work.left_shifter(fast)
+# Loading work.adder(fast)
+# Loading work.multiplier(fast)
+# Loading work.ripple_adder_16bit(fast)
+# Loading work.full_adder(fast)
+# Loading work.five_bit_counter(fast)
+# Loading work.five_bit_is_less_than(fast)
+# Loading work.right_shifter(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# ** UI-Msg: (vish-4014) No objects found matching '/tb/uut/*'.
+# Executing ONERROR command at macro ./sim_top.tcl line 54
+# invoked "break" outside of a loop
+# ** Note: $stop    : ./tb/tb.v(66)
+#    Time: 1630 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at ./tb/tb.v line 66
+# End time: 15:19:41 on Nov 29,2024, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 2

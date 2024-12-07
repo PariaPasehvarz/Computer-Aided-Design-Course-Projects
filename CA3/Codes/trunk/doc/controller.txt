@@ -1,0 +1,42 @@
+// states: (s=ps)
+idle = 000 = ~s1.~s2.~s3
+idle_2 = 001 = ~s1.~s2.s3
+init = 010 = ~s1.s2.~s3
+load_to_left_shifters = 011 = ~s1.s2.s3
+left_shift = 100 = s1.~s2.~s3
+load_to_right_shifter = 101 = s1.~s2.s3
+right_shift = 110 = s1.s2.~s3
+Done = 111 = s1.s2.s3
+
+// controller signals (primary outputs):
+rst = idle_2
+ld = init
+load_l_shift = load_to_left_shifters
+l_count_en = left_shift
+load_r_shift = load_to_right_shifter
+r_count_en = right_shift
+done = Done
+l_shift_allowed = left_shift
+r_shift_allowed = right_shift
+
+// controller inputs (primary inputs):
+start
+a_shifting
+b_shifting
+r_shifting
+
+logic of a mux that is used in ns function below:
+out = sel.b + ~sel.a
+
+//controller state functions (next state logic) (s=ns):
+NS-> idle(000)                        idle_2(001)                     init(010)     load_to_left_shifters(011)     left_shift(100)                                                            load_to_right_shifter(101)    right_shift(110)                               Done(111)
+s1 = idle.[~start.0 + start.1]   +    idle_2.[start.1 + ~start.0]  +  init.1     +  load_to_left_shifters.0     +  left_shift.[(~a_shifting.~b_shifting).1 + ~(~a_shifting.~b_shifting).0]  + load_to_right_shifter.0    +  right_shift.[r_shifting.0 + ~r_shifting.1]  +  Done.0
+s2 = idle.[~start.0 + start.0]   +    idle_2.[start.0 + ~start.1]  +  init.1     +  load_to_left_shifters.0     +  left_shift.[(~a_shifting.~b_shifting).0 + ~(~a_shifting.~b_shifting).0]  + load_to_right_shifter.1    +  right_shift.[r_shifting.1 + ~r_shifting.1]  +  Done.0
+s3 = idle.[~start.0 + start.0]   +    idle_2.[start.0 + ~start.0]  +  init.0     +  load_to_left_shifters.1     +  left_shift.[(~a_shifting.~b_shifting).1 + ~(~a_shifting.~b_shifting).1]  + load_to_right_shifter.1    +  right_shift.[r_shifting.1 + ~r_shifting.1]  +  Done.0
+
+// simplify, remove 0 and 1s:
+s1 = idle.start  +  idle_2.start   +   init   +  0                      +  left_shift.~a_shifting.~b_shifting  +  0                        + right_shift.~r_shifting  +  0
+s2 = 0            +  idle_2.~start  +   init   +  0                      +  0                                   +  load_to_right_shifter    + right_shift              +  0
+s3 = 0            +  0              +   0      +  load_to_left_shifters  +  left_shift                          +  load_to_right_shifter    + right_shift              +  0
+
+s1 now has 9 variables s2 has 5, s3 has 4
